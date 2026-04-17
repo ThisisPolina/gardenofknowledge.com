@@ -112,6 +112,11 @@ body {
   background: var(--light-color-top);
 }
 
+.smallsection{
+margin-top:5px;
+margin-bottom:5px;
+}
+
 #actualstuff {
   flex: 1;
 padding-top: 0;
