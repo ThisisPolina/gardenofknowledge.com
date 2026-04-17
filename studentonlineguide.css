@@ -75,6 +75,7 @@ body {
   padding-left: 10px;
   position: relative;
   gap: 10px;
+  flex-wrap:wrap;
 }
 
 #banner img {
@@ -84,7 +85,13 @@ body {
 
 #banner span {
   margin-left: auto;
-  font-size: clamp(30px, 40px, 45px);
+  font-size: clamp(18px, 40px, 45px);
+  line-height: 1.1;
+  word-break: break-word;
+}
+
+#banner {
+  flex-wrap: wrap;
 }
 
 #topbar {
