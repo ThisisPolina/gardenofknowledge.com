@@ -1,0 +1,561 @@
+:root {
+--body-color:#EFEFE6;
+--text-color:#244149;
+--dark-color:#7FC77B;
+--main-button-color:linear-gradient(to bottom, #A8DBA4, #8FD18B);
+--light-color:#D7F2D2;
+--bright-color:linear-gradient(to right, #FFFFFF33, #BFEDEA);
+--border-color:#D7F2D2;
+--hover-color:#95D191;
+--light-color-top: linear-gradient(to top, #FFFFFF1A, #D7F2D2);
+--top-bar-box-shadow: inset 0 2px 3px rgba(255,255,255,0.35),
+inset 2px 0 3px rgba(255,255,255,0.18),
+inset -2px 0 3px rgba(0,0,0,0.12),
+inset 0 -3px 4px rgba(0,0,0,0.18);
+--banner-box-shadow: inset 1px 1px 2px rgba(255,255,255,0.35), inset -1px -1px 2px rgba(0,0,0,0.08);
+--actual-stuff-box-shadow: inset 0 2px 2px rgba(255,255,255,0.3),
+inset 1px 0 2px rgba(255,255,255,0.15),
+inset -1px 0 2px rgba(156,182,203,0.25),
+inset 0 -2px 3px rgba(156,182,203,0.35);
+--main-button-box-shadow: inset 1px 1px 2px rgba(255,255,255,0.45), inset -1px -1px 2px rgba(127,199,123,0.55);
+--sublink-color: linear-gradient(to bottom, #FFFFFF55, #D7F2D2);
+--sublink-box-shadow: inset 1px 1px 2px rgba(255,255,255,0.45), inset -1px -1px 2px rgba(156,182,203,0.5);  border-bottom: 2px groove var(--body-color);
+--sublink-hover-box-shadow: inset 1px 1px 2px rgba(0,0,0,0.12),
+                            inset -1px -1px 2px rgba(255,255,255,0.18);
+--sublink-hover: linear-gradient(to bottom, #C3E6C0, #beebba);
+--mobile-side-bar-box-shadow: inset 1px 1px 2px rgba(255,255,255,0.35),
+              inset -1px -1px 2px rgba(127,199,123,0.25);
+}
+body.darkmode {
+--body-color:;
+--text-color:;
+--dark-color:;
+--main-button-color:;
+--light-color:;
+--bright-color:;
+--border-color:;
+--hover-color:;
+--light-color-top:;
+--banner-color:;
+--banner-color-top:;
+--top-bar-box-shadow:;
+--banner-box-shadow:;
+--actual-stuff-box-shadow:;
+--main-button-box-shadow:;
+--sublink-color:;
+--sublink-hover:;
+--sublink-box-shadow:;
+--sublink-hover-box-shadow:;
+--mobile-side-bar-box-shadow:;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Tsukimi Rounded", sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  font-size: clamp(14px, 1.2vw, 18px);
+  color:var(--text-color);
+}
+
+#wrapper {
+  width: min(100%, 900px);
+  margin: auto;
+  border: 1px solid gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#banner {
+  font-size: 50px;
+  padding-right: 10px;
+  height: 100px;
+  background: var(--bright-color);
+  box-shadow: var(--banner-box-shadow);
+  background-size: contain;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 10px;
+  
+}
+
+#topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 10px;
+  border-top: 1px solid gray;
+  background: var(--dark-color);
+  box-shadow: var(--top-bar-box-shadow);
+    border-bottom: 2px solid var(--border-color);
+    
+}
+
+
+#content {
+  display: flex;
+  align-items: stretch;
+  min-height: 650px;
+      background: var(--body-color);
+}
+
+#sidebar {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  background:var(--light-color-top);
+}
+
+#actualstuff {
+  flex: 1;
+  padding: 20px;
+  padding-top: 0;
+  background: var(--body-color);
+box-shadow: var(--actual-stuff-box-shadow);
+border-left:1px solid gray;
+border-top:1px solid gray;
+}
+
+.mainbutton {
+  width: 100%;
+  font-size: 17px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: var(--main-button-color);
+  box-shadow: var(--main-button-box-shadow);
+    border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+}
+
+.mainbutton::before {
+  content: "";
+  display: inline-block;
+  background-image: url("starclover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-left: 7px;
+  margin-right:-3px;
+}
+
+#links {
+  width: 100%;
+  font-size: 18px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: var(--main-button-color);
+  box-shadow: var(--main-button-box-shadow);
+    border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+}
+
+#links::before {
+  content: "";
+  display: inline-block;
+  background-image: url("starclover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+  margin-top: -5px;
+  margin-left: 7px;
+margin-right:4px;
+}
+
+.sublink {
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 10px;
+  display: flex;
+box-shadow: var(--sublink-box-shadow);
+background: var(--sublink-color);
+}
+
+.sublink span {
+  text-decoration: underline;
+  margin: 2px;
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+.sublink span::after {
+  content: "";
+  display: inline-block;
+  background-image: url("sapling.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.5em;
+  height: 1.5em;
+  opacity: 0;
+  margin-left: 2px;
+  transition: opacity 0.1s ease;
+}
+
+.sublink:hover {
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-right: 10px;
+  display: flex;
+  box-shadow: var(--sublink-hover-box-shadow);
+  background: var(--sublink-hover);
+}
+
+.sublink:hover span::after {
+  opacity: 1;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.events iframe {
+  width: 100%;
+  height: 500px;
+}
+
+#mobile-sidebar {
+  display: none;
+}
+
+footer {
+  border-top: 1px solid gray;
+  padding: 10px;
+  text-align:center;
+  background: var(--dark-color);
+  box-shadow: var(--top-bar-box-shadow);
+}
+
+h2 {
+  border-bottom: 2px dashed var(--bright-color);
+}
+
+h2:nth-of-type(odd)::after,
+h2:nth-of-type(even)::after {
+  content: "";
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1em;
+  height: 1em;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+h2:nth-of-type(odd)::after {
+  background-image: url("ladybug.png");
+}
+
+h2:nth-of-type(even)::after {
+  background-image: url("blackladybug.png");
+}
+
+h4 {
+  display: inline-block;
+}
+
+.welcome {
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  width: 100%;
+  padding: 5px;
+  display: block;
+  color:var(--text-color);
+}
+
+.welcome::before{
+  content: "";
+  display: inline-block;
+  background-image: url("sapling.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: top;
+  margin-top:4px;
+  margin-right:3px;
+}
+
+.welcome::after{
+  content: "";
+  display: inline-block;
+  background-image: url("sapling.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: top;
+  margin-top:4px;
+    margin-left:2px;
+}
+
+h2,
+h3,
+p,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.welcome,
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+}
+
+section {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+#float {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+iframe {
+  margin-bottom: 0;
+}
+
+#theme-switch {
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: block;
+}
+
+#languageswitcher {
+  display: flex;
+  gap: 10px;
+}
+
+.flag-button {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.flag-button img {
+  height: 20px;
+  border: 1px solid;
+}
+
+#banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#banner img {
+  height: 90px;
+  object-fit: fill;
+}
+
+#banner span {
+  margin-left: auto;
+  font-size: clamp(40px, 40px, 60px);
+}
+
+#thing {
+  display: flex;
+  align-items: stretch;
+}
+
+#thing img {
+  width: 10rem;
+  height: auto;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+.buildings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1000px;
+}
+
+.building {
+  text-align: center;
+}
+
+.building img {
+  width: 100%;
+  height: 450px;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+
+  #wrapper{
+    margin-bottom:0px;
+    margin-top:0px;
+  }
+
+#mobile-sidebar {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 0;
+
+  background: var(--light-color);
+
+  box-shadow: var(--mobile-sidebar-box-shadow);
+}
+
+  #mobile-sidebar a::after {
+    content: "";
+    display: inline-block;
+    background-image: url("starclover.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 1em;
+    margin-left: 2px;
+    vertical-align: top;
+  }
+
+  .events {
+    grid-template-columns: 1fr;
+  }
+
+  .events iframe {
+    height: 400px;
+  }
+
+  .buildings {
+    display: block;
+  }
+
+  .student {
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .pfp {
+    flex: 0 0 85px;
+  }
+
+  .introduction {
+    font-size: 0.9rem;
+  }
+
+  .question {
+    font-size: 0.85rem;
+  }
+
+  .answer {
+    font-size: 0.8rem;
+  }
+}
+
+ol{
+column-count:2;
+column-gap:50px
+}
+
+.question,
+.answer{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.question{
+font-weight:bold;
+}
+
+.student {
+  display: flex;
+  align-items: stretch;
+  gap: 15px;
+  border: 1px solid var(--text-color);
+  padding: 15px;
+}
+
+.pfp {
+  flex: 0 0 110px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.pfp img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.student-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.introduction,
+.question,
+.answer {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.introduction {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.question {
+  margin: 8px 0;
+  font-weight: 600;
+}
+
+.answer {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.readmore {
+  margin-top: auto;
+}

@@ -1,0 +1,292 @@
+:root {
+  --text-color: #514D4A;
+  --switch-color: #514D4A;
+ --border-color: #514D4A;
+  --site-name-color: #C9E5AE;
+
+  --link-color: #06ADC1;
+  --nav-color: #06ADC1;
+
+  --body-color: #F0F2F0;
+
+  --h2-text-color: #EB81B4;
+  --h3-text-color: #4BE0D5;
+
+  --hover-color: #B7E6DE;
+  --linear-background:linear-gradient(to left, rgb(201, 229, 174) 0%, rgba(201, 229, 174, 0) 100%);
+
+}
+
+body.darkmode {
+  --body-color: #;
+
+  --text-color: #;
+  --switch-color: #;
+
+  --site-name-color: #;
+  --border-color: #;
+
+  --link-color: #;
+  --nav-color: #;
+
+  --h2-text-color: #;
+  --h3-text-color: #;
+
+  --hover-color: #;
+  --linear-background: #;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: clamp(14px, 1.2vw, 18px);
+  position: relative;
+}
+
+#page {
+  width: min(95%, 900px);
+  margin: auto;
+  position: relative;
+  z-index: 1;
+    border:1px dotted black;
+padding-bottom:2px;
+margin-top:5px;
+margin-bottom:5px;
+}
+
+#banner {
+  font-size: 50px;
+  text-align: right;
+  font-style: italic;
+  color:var(--site-name-color);
+  padding-right:10px;
+  border-bottom:1px dotted black;
+}
+
+
+nav {
+  width: 100%;
+  display:flex;
+  margin-top:10px;
+}
+
+.nav{
+  flex:1;
+    font-size:20px;
+    color: var(--nav-color);
+      padding:10px;
+
+
+}
+.nav-bar a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
+  color: var(--nav-color);
+}
+
+.nav-bar a:hover {
+  color: var(--hover-color);
+}
+
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .nav {
+    margin: 0;
+  }
+}
+
+#theme-switch {
+  cursor: pointer;
+  display: inline-block;
+  user-select:none;
+text-align:right;  
+font-size:20px;
+  color: var(--switch-color);
+  border-top:1px dotted black;
+    border-bottom:1px dotted black;
+  width:100%;
+  padding:10px;
+  border-top:1px dotted black;
+  margin-top:10px;
+}
+
+#content {
+  font-size: clamp(16px, 6vw, 20px);
+}
+
+h2 {
+  margin: 10px 0 0 0;
+  color: var(--h2-text-color);
+  border-bottom: 1px dashed var(--border-color);
+  text-align:right;
+  background: var(--linear-background);
+  padding-right:10px;
+ padding-top:2px;
+  padding-bottom:2px;
+  
+}
+
+h3 {
+  border-bottom: 1px solid var(--border-color);
+  color: var(--h3-text-color);
+  font-size: 29px;
+  font-weight: bold;
+  text-align:right;
+  background: var(--linear-background);
+  padding-right:10px;
+ padding-top:2px;
+  padding-bottom:2px;
+  margin-top:10px;
+
+
+}
+p {
+  color: var(--text-color);
+  background-color: transparent;
+  text-align: left;
+}
+
+a {
+  color: var(--link-color);
+}
+
+#header img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#map img {
+  width: 100%;
+  margin: auto;
+}
+
+.buildings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 55px;
+  max-width: 1000px;
+}
+
+.building {
+  text-align: center;
+}
+
+.building img {
+  width: 100%;
+  height: 450px;
+}
+
+.building p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.buildinginfo {
+  padding: 10px;
+  margin: 10px;
+}
+
+.rooms {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.rooms img {
+  display: inline-block;
+  margin: 10px;
+}
+
+summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  h2, h3 {
+text-align:left;
+  }
+}
+
+footer{
+  margin-top:10px;
+  background-color:var(--site-name-color);
+  padding:5px;
+  margin-left:0px;
+  margin-bottom:10px;
+}
+
+.noliststyle ul{
+list-style:none;
+padding-left:0px;
+margin-top:10px;
+margin-bottom:10px;
+}
+
+.noliststyle li{
+list-style:none;
+}
+
+
+.noliststyle {
+padding-left:0px;}
+
+.events{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:10px;
+margin-top:10px;
+}
+
+.events iframe{
+  width:100%;
+  height:500px;
+}
+
+@media (max-width: 600px) {
+  .events {
+    grid-template-columns: 1fr;
+  }
+
+  .events iframe {
+    height: 450px;
+  }
+
+  .buildings{
+    grid-template-columns:1fr;
+  }
+}
