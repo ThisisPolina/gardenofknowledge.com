@@ -189,7 +189,29 @@ en: {
   mustknows: "Must-knows from IC-CMRU students of every year and major",
   mustknowsdesc: "This contains insights and advice from IC-CMRU students (we will also cover CMRU students in the future).",
   studentclubs: "Student Clubs (work-in-progress)",
-  studentclubsdesc: "This contains information on running or joining a student club, available student clubs, and a Google Form for starting a student club."
+  studentclubsdesc: "This contains information on running or joining a student club, available student clubs, and a Google Form for starting a student club.",
+
+  dailylifetitle: "Information about daily life",
+  visatitle: "Visa matters",
+  visadesc:
+    "This covers what to prepare for a student visa, the application process, visa extensions and reporting, and important reminders to keep in mind.",
+  housingtitle: "Renting an apartment or dorm",
+  housingdesc:
+    "This contains information on finding a place to rent, the payment process, getting a TM30, and how dormitories work.",
+
+  moneytitle: "Money matters",
+  moneydesc:
+    "This covers where to exchange money, opening a bank account, opening a TrueMoney account, and important things to keep in mind.",
+
+  shoppingtitle: "Shopping in Chiang Mai",
+  shoppingdesc:
+    "This contains information on where students go for groceries, shopping for regular and school clothes, school supplies, daily necessities, markets, gyms, and parks.",
+
+  drivingtitle: "Driving in Chiang Mai",
+  drivingdesc:
+    "This contains information on buying and maintaining motorbikes, getting a helmet, paying road tax, and important things to know about driving.",
+
+  eventstitle: "Events all over Chiang Mai"
 },
 th: {
   studentvisatitle: "",
@@ -332,6 +354,24 @@ mustknows: "",
 mustknowsdesc: "",
 studentclubs: "",
 studentclubsdesc: "",
+  dailylifetitle: "",
+
+  visatitle: "",
+  visadesc: "",
+
+  housingtitle: "",
+  housingdesc: "",
+
+  moneytitle: "",
+  moneydesc: "",
+
+  shoppingtitle: "",
+  shoppingdesc: "",
+
+  drivingtitle: "",
+  drivingdesc: "",
+
+  eventstitle: ""
 },
   
 };
