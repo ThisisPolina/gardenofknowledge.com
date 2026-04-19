@@ -19,6 +19,7 @@
   --mobile-side-bar-box-shadow:inset 1px 1px 2px rgba(255,255,255,0.35), inset -1px -1px 2px rgba(127,199,123,0.25);
 }
 
+
 body.darkmode {
   --body-color:;
   --text-color:;
