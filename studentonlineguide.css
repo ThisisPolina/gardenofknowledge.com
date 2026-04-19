@@ -449,6 +449,12 @@ ol {
   margin-bottom: 6px;
 }
 
+  .student {
+    gap: 20px;
+    padding: 20px 0;
+  margin-bottom:20px;
+  }
+
 @media (max-width: 768px) {
   #sidebar {
     display: none;
@@ -497,7 +503,7 @@ ol {
   .student {
     gap: 20px;
     padding: 20px 0;
-    margin-bottom:20px;
+  margin-bottom:20px;
   }
 
   .pfp {
@@ -519,7 +525,6 @@ ol {
 section {
   text-align: left;
   line-height: 1.5;
-  margin-bottom:20px;
 }
 
   #wrapper {
