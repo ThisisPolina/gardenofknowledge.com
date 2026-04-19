@@ -1,3 +1,18 @@
+const observer = new IntersectionObserver((entries, obs) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const img = entry.target;
+      img.src = img.dataset.src;
+      img.onload = () => img.classList.add("loaded");
+      obs.unobserve(img);
+    }
+  });
+});
+
+document.querySelectorAll(".lazy").forEach(img => {
+  observer.observe(img);
+});
+
 function initUI() { let darkmode = localStorage.getItem('darkmode'); const themeSwitch = document.getElementById('theme-switch'); const updateImage = () => { if (!themeSwitch) return; themeSwitch.src = darkmode === "active" ? "lightmode.png" : "darkmode.png"; }; const enableDarkmode = () => { document.body.classList.add('darkmode'); localStorage.setItem('darkmode', 'active'); darkmode = "active"; updateImage(); }; const disableDarkmode = () => { document.body.classList.remove('darkmode'); localStorage.removeItem('darkmode'); darkmode = null; updateImage(); }; if (darkmode === "active") { document.body.classList.add('darkmode'); } updateImage(); if (themeSwitch) { themeSwitch.onclick = () => { darkmode !== "active" ? enableDarkmode() : disableDarkmode(); }; } document.querySelectorAll('.flag-button').forEach(button => { button.onclick = () => { setLanguage(button.dataset.language); }; }); const savedLang = localStorage.getItem('lang') || 'en'; setLanguage(savedLang); } function loadPage(page) { fetch(page) .then(res => res.text()) .then(data => { document.getElementById("actualstuff").innerHTML = data; const savedLang = localStorage.getItem('lang') || 'en'; setLanguage(savedLang); initUI(); }); }
 
 
