@@ -109,35 +109,67 @@ en: {
   moneyquestion5: "Q: Anything else to keep in mind?",
   moneyanswer5: "A: Please make sure your phone or device is up to date and can run these apps. If it cannot, you may need to buy a new one. There are many secondhand shops around the city, especially in shopping malls like Maya and Central Airport.",
 
-    shoppingtitle: "Shopping in Chiang Mai",
+  shoppingtitle: "Shopping in Chiang Mai",
 
-    shoppingquestion1: "Q: Where do students usually go to eat?",
-    shoppinganswer1: "A: Whenever we are near or on campus, we like to go to the cafeteria. The prices there are cheap, starting from 30 baht for a meal. Sometimes stalls close early because they run out of food. The cafeteria usually closes at 4 p.m. and on Thai holidays. We also have a 7/11 on the first floor of the 90th building. Right now it's closed because Thai students from the 27th building are already done with their school year. There are also small shops all over campus, but they mainly focus on beverages. Some are also closed for the aforementioned reason. There are a lot of restaurants, street food stalls, and shops near campus.",
+  shoppingquestion1: "Q: Where do students usually go to eat?",
+  shoppinganswer1: "A: Whenever we are near or on campus, we like to go to the cafeteria. The prices there are cheap, starting from 30 baht for a meal. Sometimes stalls close early because they run out of food. The cafeteria usually closes at 4 p.m. and on Thai holidays. We also have a 7/11 on the first floor of the 90th building. Right now it's closed because Thai students from the 27th building are already done with their school year. There are also small shops all over campus, but they mainly focus on beverages. Some are also closed for the aforementioned reason. There are a lot of restaurants, street food stalls, and shops near campus.",
 
-    shoppingquestion2: "Q: Where do students usually buy their groceries?",
-    shoppinganswer2: "A: Pricier options, but worth it if they have discounts and promotions: Makro, Rimping, and Tops. Regular options: Lotus, Big C, a market near university called Siri Wattana Market, and a fruit/wet market at 1 Wichayanon Rd Soi 1.",
+  shoppingquestion2: "Q: Where do students usually buy their groceries?",
+  shoppinganswer2: "A: Pricier options, but worth it if they have discounts and promotions: Makro, Rimping, and Tops. Regular options: Lotus, Big C, a market near university called Siri Wattana Market, and a fruit/wet market at 1 Wichayanon Rd Soi 1.",
 
-    shoppingquestion3: "Q: What shopping malls are there?",
-    shoppinganswer3: "A: Maya, Central Festival, Central Airport.",
+  shoppingquestion3: "Q: What shopping malls are there?",
+  shoppinganswer3: "A: Maya, Central Festival, Central Airport.",
 
-    shoppingquestion4: "Q: Where do students usually buy daily necessities?",
-    shoppinganswer4: "A: Mr DIY at Lotus, 7/11, Chiang Mai Direct, Win Cosmetics.",
+  shoppingquestion4: "Q: Where do students usually buy daily necessities?",
+  shoppinganswer4: "A: Mr DIY at Lotus, 7/11, Chiang Mai Direct, Win Cosmetics.",
 
-    shoppingquestion5: "Q: Where do students usually buy regular clothes?",
-    shoppinganswer5: "A: Lotus’s Kham Thiang has a market called Khamthiang Market from Wednesday to Friday. They also set up stalls with food and drinks. If you would like to buy clothes for cheap, we recommend going to Hola Hola Secondhand Clothing Store. Their prices start at 15 baht, and they also offer 50% discounts. If you love to browse and try on clothes, this is the place for you.",
+  shoppingquestion5: "Q: Where do students usually buy regular clothes?",
+  shoppinganswer5: "A: Lotus’s Kham Thiang has a market called Khamthiang Market from Wednesday to Friday. They also set up stalls with food and drinks. If you would like to buy clothes for cheap, we recommend going to Hola Hola Secondhand Clothing Store. Their prices start at 15 baht, and they also offer 50% discounts. If you love to browse and try on clothes, this is the place for you.",
 
-    shoppingquestion6: "Q: Where do students usually buy school clothes and supplies?",
-    shoppinganswer6: "A: We have a stationery store near our university called Piern Rian Stationery Chiang Mai. If you happen to go to Kad Na Mor Market, you will find school clothes there at a place called ร้านร่มไทร หน้า มช ชุดนักศึกษาปี1 ชุดรับปริญยา.",
+  shoppingquestion6: "Q: Where do students usually buy school clothes and supplies?",
+  shoppinganswer6: "A: We have a stationery store near our university called Piern Rian Stationery Chiang Mai. If you happen to go to Kad Na Mor Market, you will find school clothes there at a place called ร้านร่มไทร หน้า มช ชุดนักศึกษาปี1 ชุดรับปริญยา.",
 
-    shoppingquestion7: "Q: What markets do students usually go to?",
-    shoppinganswer7: "A: Market near university: Siri Wattana Market, Kad Na Mor Market, Lang Mor Night Market, Saturday Evening Flea Market - Keha Nong Hoi, Chiang Mai Night Market, Chiang Mai University Night Market.",
+  shoppingquestion7: "Q: What markets do students usually go to?",
+  shoppinganswer7: "A: Market near university: Siri Wattana Market, Kad Na Mor Market, Lang Mor Night Market, Saturday Evening Flea Market - Keha Nong Hoi, Chiang Mai Night Market, Chiang Mai University Night Market.",
 
-    shoppingquestion8: "Q: What gyms do students usually go to?",
-    shoppinganswer8: "A: Many students like to go to Income Gym because it isn't far from campus and they have showers. A day of working out there costs 70 baht if you show your student ID card. If you would like more facilities, including an indoor gym and a running track, you should go to Chiang Mai Municipal Stadium. The entrance fee is free.",
+  shoppingquestion8: "Q: What gyms do students usually go to?",
+  shoppinganswer8: "A: Many students like to go to Income Gym because it isn't far from campus and they have showers. A day of working out there costs 70 baht if you show your student ID card. If you would like more facilities, including an indoor gym and a running track, you should go to Chiang Mai Municipal Stadium. The entrance fee is free.",
 
-    shoppingquestion9: "Q: What parks do students usually go to?",
-    shoppinganswer9: "A: These are parks you can go to for free: PAO Park, Chiang Mai University Campus, Buak Had Public Park. There are also parks that require an entrance fee. If you would like to go to Royal Ratchaphruek Park, bring your student ID card, as the entrance fee will be 70 baht instead of 200 baht."
-  },
+  shoppingquestion9: "Q: What parks do students usually go to?",
+  shoppinganswer9: "A: These are parks you can go to for free: PAO Park, Chiang Mai University Campus, Buak Had Public Park. There are also parks that require an entrance fee. If you would like to go to Royal Ratchaphruek Park, bring your student ID card, as the entrance fee will be 70 baht instead of 200 baht.",
+
+  drivingtitle: "Driving in Chiang Mai",
+
+  drivingquestion1: "Q: Why motorbike?",
+  drivinganswer1: "A: The design of many routes and roads is more convenient for motorbikes than for cars. Driving a motorbike will be faster and helps you avoid being late to class. It’s also easier to find parking.",
+
+  drivinganswer2: "Popular brands are Scoopy, Fino, Filano, and Wave. Automatic motorbikes are very common.",
+
+  drivingquestion2: "Q: How to buy a motorbike?",
+  drivinganswer3: "A: Renting a motorbike is more expensive than buying one. There are many motorbike shops, but students mostly buy online on Facebook Marketplace or from someone they know. When buying a motorbike, it is essential that the seller provides you with a Green Book.",
+
+  drivingquestion3: "Q: Where to buy motorbike?",
+  drivinganswer4: "Many students use Facebook Marketplace to buy motorbikes.",
+
+  drivinganswer5: "Sometimes motorbikes are sold without a Green Book, which is very risky because you won’t be able to legally transfer ownership or sell it later. Some listings don’t show the Green Book, but you can always ask the seller.",
+
+  drivinganswer6: "Many students also arrange shipping from another city. It is recommended to check the motorbike in person when possible. High mileage is not necessarily bad if the motorbike is well maintained, but lower mileage is usually preferred.",
+
+  drivingquestion4: "Q: Do I need a helmet?",
+  drivinganswer7: "Yes. Please buy a helmet for your safety and to avoid fines. A full-face helmet is recommended and usually costs around 900 baht.",
+
+  drivingquestion5: "Q: How to transfer ownership of a motorbike?",
+  drivinganswer8: "Coming soon.",
+
+  drivingquestion6: "Q: How to take care of a motorbike?",
+  drivinganswer9: "It is important to go to a mechanic who can check the condition of your motorbike. Pump your tires at the gas station regularly to avoid issues. You will also need to change the engine oil every 1000–1500 km if you use basic oil. If this is ignored for too long, it may cause serious engine damage that is expensive to fix.",
+
+  drivingquestion7: "Q: How to pay road tax?",
+  drivinganswer10: "Bring your Green Book and passport. You will need to have your motorbike inspected, then buy insurance, and finally pay the road tax.",
+
+  drivingquestion8: "Q: How to act during an accident?",
+  drivinganswer11: "Coming soon. We plan to help students mentally prepare for what to do if they witness or are involved in an accident."
+},
 th: {
   studentvisatitle: "",
   visaquestion1: "",
@@ -191,7 +223,28 @@ th: {
   shoppingquestion8: "",
   shoppinganswer8: "",
   shoppingquestion9: "",
-  shoppinganswer9: ""
+  shoppinganswer9: "",
+
+  drivingtitle: "",
+  drivingquestion1: "",
+  drivinganswer1: "",
+  drivinganswer2: "",
+  drivingquestion2: "",
+  drivinganswer3: "",
+  drivingquestion3: "",
+  drivinganswer4: "",
+  drivinganswer5: "",
+  drivinganswer6: "",
+  drivingquestion4: "",
+  drivinganswer7: "",
+  drivingquestion5: "",
+  drivinganswer8: "",
+  drivingquestion6: "",
+  drivinganswer9: "",
+  drivingquestion7: "",
+  drivinganswer10: "",
+  drivingquestion8: "",
+  drivinganswer11: ""
 },
 
 my: {
@@ -247,7 +300,28 @@ my: {
   shoppingquestion8: "",
   shoppinganswer8: "",
   shoppingquestion9: "",
-  shoppinganswer9: ""
+  shoppinganswer9: "",
+
+  drivingtitle: "",
+  drivingquestion1: "",
+  drivinganswer1: "",
+  drivinganswer2: "",
+  drivingquestion2: "",
+  drivinganswer3: "",
+  drivingquestion3: "",
+  drivinganswer4: "",
+  drivinganswer5: "",
+  drivinganswer6: "",
+  drivingquestion4: "",
+  drivinganswer7: "",
+  drivingquestion5: "",
+  drivinganswer8: "",
+  drivingquestion6: "",
+  drivinganswer9: "",
+  drivingquestion7: "",
+  drivinganswer10: "",
+  drivingquestion8: "",
+  drivinganswer11: ""
 },
 
 zh: {
@@ -303,7 +377,28 @@ zh: {
   shoppingquestion8: "",
   shoppinganswer8: "",
   shoppingquestion9: "",
-  shoppinganswer9: ""
+  shoppinganswer9: "",
+
+  drivingtitle: "",
+  drivingquestion1: "",
+  drivinganswer1: "",
+  drivinganswer2: "",
+  drivingquestion2: "",
+  drivinganswer3: "",
+  drivingquestion3: "",
+  drivinganswer4: "",
+  drivinganswer5: "",
+  drivinganswer6: "",
+  drivingquestion4: "",
+  drivinganswer7: "",
+  drivingquestion5: "",
+  drivinganswer8: "",
+  drivingquestion6: "",
+  drivinganswer9: "",
+  drivingquestion7: "",
+  drivinganswer10: "",
+  drivingquestion8: "",
+  drivinganswer11: ""
 },
 
 id: {
@@ -359,7 +454,28 @@ id: {
   shoppingquestion8: "",
   shoppinganswer8: "",
   shoppingquestion9: "",
-  shoppinganswer9: ""
+  shoppinganswer9: "",
+
+  drivingtitle: "",
+  drivingquestion1: "",
+  drivinganswer1: "",
+  drivinganswer2: "",
+  drivingquestion2: "",
+  drivinganswer3: "",
+  drivingquestion3: "",
+  drivinganswer4: "",
+  drivinganswer5: "",
+  drivinganswer6: "",
+  drivingquestion4: "",
+  drivinganswer7: "",
+  drivingquestion5: "",
+  drivinganswer8: "",
+  drivingquestion6: "",
+  drivinganswer9: "",
+  drivingquestion7: "",
+  drivinganswer10: "",
+  drivingquestion8: "",
+  drivinganswer11: ""
 },
 
 ru: {
@@ -415,7 +531,28 @@ ru: {
   shoppingquestion8: "",
   shoppinganswer8: "",
   shoppingquestion9: "",
-  shoppinganswer9: ""
+  shoppinganswer9: "",
+
+  drivingtitle: "",
+  drivingquestion1: "",
+  drivinganswer1: "",
+  drivinganswer2: "",
+  drivingquestion2: "",
+  drivinganswer3: "",
+  drivingquestion3: "",
+  drivinganswer4: "",
+  drivinganswer5: "",
+  drivinganswer6: "",
+  drivingquestion4: "",
+  drivinganswer7: "",
+  drivingquestion5: "",
+  drivinganswer8: "",
+  drivingquestion6: "",
+  drivinganswer9: "",
+  drivingquestion7: "",
+  drivinganswer10: "",
+  drivingquestion8: "",
+  drivinganswer11: ""
 },
 
 ph: {
@@ -471,7 +608,28 @@ ph: {
   shoppingquestion8: "",
   shoppinganswer8: "",
   shoppingquestion9: "",
-  shoppinganswer9: ""
+  shoppinganswer9: "",
+
+  drivingtitle: "",
+  drivingquestion1: "",
+  drivinganswer1: "",
+  drivinganswer2: "",
+  drivingquestion2: "",
+  drivinganswer3: "",
+  drivingquestion3: "",
+  drivinganswer4: "",
+  drivinganswer5: "",
+  drivinganswer6: "",
+  drivingquestion4: "",
+  drivinganswer7: "",
+  drivingquestion5: "",
+  drivinganswer8: "",
+  drivingquestion6: "",
+  drivinganswer9: "",
+  drivingquestion7: "",
+  drivinganswer10: "",
+  drivingquestion8: "",
+  drivinganswer11: ""
 }
 };
 function setLanguage(lang) {
