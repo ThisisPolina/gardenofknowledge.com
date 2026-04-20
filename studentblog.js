@@ -1,3 +1,12 @@
+function openMap() {
+  document.getElementById("mapPopup").style.display = "flex";
+}
+
+function closeMap() {
+  document.getElementById("mapPopup").style.display = "none";
+}
+
+
 const observer = new IntersectionObserver((entries, obs) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
