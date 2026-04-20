@@ -386,8 +386,7 @@ function setLanguage(lang) {
 
     if (!el.dataset.original) {
       el.dataset.original = el.innerHTML;
-    
-
+    }
 
     if (translations[lang] && key in translations[lang]) {
       el.innerHTML = translations[lang][key];
