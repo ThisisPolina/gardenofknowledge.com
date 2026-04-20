@@ -107,226 +107,6 @@ function loadPage(page) {
 }
 
 const translations = {
-th: {
-  studentvisatitle: "",
-  visaquestion1: "",
-  visaanswer1: "",
-  visaquestion2: "",
-  visaanswer2: "",
-  visaquestion3: "",
-  visaanswer3: "",
-  visaquestion4: "",
-  visaanswer4: "",
-  visaquestion5: "",
-  visaanswer5: "",
-
-  housingtitle: "",
-  housingquestion1: "",
-  housinganswer1: "",
-  housingquestion2: "",
-  housinganswer2: "",
-  housingquestion3: "",
-  housinganswer3: "",
-  housingquestion4: "",
-  housinganswer4: "",
-
-  moneytitle: "",
-  moneyquestion1: "",
-  moneyanswer1: "",
-  moneyquestion2: "",
-  moneyanswer2: "",
-  moneyquestion3: "",
-  moneyanswer3: "",
-  moneyquestion4: "",
-  moneyanswer4: "",
-  moneyquestion5: "",
-  moneyanswer5: "",
-
-  shoppingtitle: "",
-  shoppingquestion1: "",
-  shoppinganswer1: "",
-  shoppingquestion2: "",
-  shoppinganswer2: "",
-  shoppingquestion3: "",
-  shoppinganswer3: "",
-  shoppingquestion4: "",
-  shoppinganswer4: "",
-  shoppingquestion5: "",
-  shoppinganswer5: "",
-  shoppingquestion6: "",
-  shoppinganswer6: "",
-  shoppingquestion7: "",
-  shoppinganswer7: "",
-  shoppingquestion8: "",
-  shoppinganswer8: "",
-  shoppingquestion9: "",
-  shoppinganswer9: "",
-
-  drivingtitle: "",
-  drivingquestion1: "",
-  drivinganswer1: "",
-  drivinganswer2: "",
-  drivingquestion2: "",
-  drivinganswer3: "",
-  drivingquestion3: "",
-  drivinganswer4: "",
-  drivinganswer5: "",
-  drivinganswer6: "",
-  drivingquestion4: "",
-  drivinganswer7: "",
-  drivingquestion5: "",
-  drivinganswer8: "",
-  drivingquestion6: "",
-  drivinganswer9: "",
-  drivingquestion7: "",
-  drivinganswer10: "",
-  drivingquestion8: "",
-  drivinganswer11: "",
-
-  keyinfotitle: "",
-  keyinfoquestion1: "",
-  keyinfoanswer1: "",
-  keyinfoquestion2: "",
-  keyinfoanswer2: "",
-  keyinfoquestion3: "",
-  keyinfoanswer3: "",
-  keyinfoquestion4: "",
-  keyinfoanswer4: "",
-  keyinfoquestion5: "",
-  keyinfoanswer5: "",
-  keyinfoquestion6: "",
-  keyinfoanswer6: "",
-  keyinfoquestion7: "",
-  keyinfoanswer7: "",
-
-  generallinkstitle: "",
-  generallinksdesc1: "",
-  generallinksdesc2: "",
-  generallinksdesc3: "",
-  generallinksdesc4: "",
-  generallinksdesc5: "",
-  generallinksdesc6: "",
-  generallinksdesc7: "",
-  generallinksdesc8: "",
-
-  wiangbuatitle: "",
-  wiangbuadesc1: "",
-  wiangbuadesc2: "",
-  wiangbuadesc3: "",
-  wiangbuadesc4: "",
-  wiangbuadesc5: "",
-  wiangbuadesc6: "",
-  wiangbuadesc7: "",
-  wiangbuadesc8: "",
-  wiangbuadesc9: "",
-  wiangbuadesc10: "",
-  wiangbuadesc11: "",
-  wiangbuadesc12: "",
-  wiangbuadesc13: "",
-  wiangbuadesc14: "",
-  wiangbuadesc15: "",
-  wiangbuadesc16: "",
-  wiangbuadesc17: "",
-  wiangbuadesc18: "",
-
-  othercampusestitle: "",
-  othercampusesdesc1: "",
-  othercampusesdesc2: "",
-  othercampusesdesc3: "",
-  othercampusesdesc4: "",
-  othercampusesdesc5: "",
-  othercampusesdesc6: "",
-  othercampusesdesc7: "",
-  infoaboutfacultyofagriculturaltechnology: "",
-  
-  unilife: "",
-keyinfo: "",
-keyinfodesc: "",
-navigation: "",
-navigationdesc: "",
-mustknows: "",
-mustknowsdesc: "",
-studentclubs: "",
-studentclubsdesc: "",
-  dailylifetitle: "",
-
-  visatitle: "",
-  visadesc: "",
-
-  housingtitle: "",
-  housingdesc: "",
-
-  moneytitle: "",
-  moneydesc: "",
-
-  shoppingtitle: "",
-  shoppingdesc: "",
-
-  drivingtitle: "",
-  drivingdesc: "",
-
-  eventstitle: ""
-},
-
-zh: {
-  keyinfotitle: "",
-  keyinfoquestion1: "",
-  keyinfoanswer1: "",
-  keyinfoquestion2: "",
-  keyinfoanswer2: "",
-  keyinfoquestion3: "",
-  keyinfoanswer3: "",
-  keyinfoquestion4: "",
-  keyinfoanswer4: "",
-  keyinfoquestion5: "",
-  keyinfoanswer5: "",
-  keyinfoquestion6: "",
-  keyinfoanswer6: "",
-  keyinfoquestion7: "",
-  keyinfoanswer7: "",
-
-  generallinkstitle: "",
-  generallinksdesc1: "",
-  generallinksdesc2: "",
-  generallinksdesc3: "",
-  generallinksdesc4: "",
-  generallinksdesc5: "",
-  generallinksdesc6: "",
-  generallinksdesc7: "",
-  generallinksdesc8: "",
-
-  wiangbuatitle: "",
-  wiangbuadesc1: "",
-  wiangbuadesc2: "",
-  wiangbuadesc3: "",
-  wiangbuadesc4: "",
-  wiangbuadesc5: "",
-  wiangbuadesc6: "",
-  wiangbuadesc7: "",
-  wiangbuadesc8: "",
-  wiangbuadesc9: "",
-  wiangbuadesc10: "",
-  wiangbuadesc11: "",
-  wiangbuadesc12: "",
-  wiangbuadesc13: "",
-  wiangbuadesc14: "",
-  wiangbuadesc15: "",
-  wiangbuadesc16: "",
-  wiangbuadesc17: "",
-  wiangbuadesc18: "",
-
-  othercampusestitle: "",
-  othercampusesdesc1: "",
-  othercampusesdesc2: "",
-  othercampusesdesc3: "",
-  othercampusesdesc4: "",
-  othercampusesdesc5: "",
-  othercampusesdesc6: "",
-  othercampusesdesc7: "",
-
-  infoaboutfacultyofagriculturaltechnology: ""
-},
-
 ru: {
   keyinfotitle: "Основная информация",
 
@@ -599,14 +379,23 @@ ph: {
 function setLanguage(lang) {
   localStorage.setItem('lang', lang);
   document.documentElement.setAttribute('lang', lang);
+
   document.querySelectorAll('[data-key]').forEach(el => {
     const key = el.dataset.key;
+
+
+    if (!el.dataset.original) {
+      el.dataset.original = el.innerHTML;
+    
+
+
     if (translations[lang] && key in translations[lang]) {
-      el.textContent = translations[lang][key];
+      el.innerHTML = translations[lang][key];
+    } else {
+      el.innerHTML = el.dataset.original;
     }
   });
 }
-
 document.addEventListener('DOMContentLoaded', initUI);
 
 window.loadPage = loadPage;
