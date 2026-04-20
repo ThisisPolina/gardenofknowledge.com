@@ -608,3 +608,5 @@ function setLanguage(lang) {
 }
 
 document.addEventListener('DOMContentLoaded', initUI);
+
+window.loadPage = loadPage;
