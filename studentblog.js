@@ -235,7 +235,22 @@ en: {
   drivingdesc:
     "This contains information on buying and maintaining motorbikes, getting a helmet, paying road tax, and important things to know about driving.",
 
-  eventstitle: "Events all over Chiang Mai"
+  eventstitle: "Events all over Chiang Mai",
+
+housingquestion1: "How can I find a place to rent?",
+housinganswer1: "You can search through Facebook groups and rental posts or create your own post stating your budget and preferred area (you can include a screenshot from Google Maps). You can also contact landlords directly, but make sure they accept foreign tenants before proceeding.",
+
+housingquestion2: "What is the payment process when renting a place?",
+housinganswer2: "Once you choose a room, you usually need to pay a deposit and the first month’s rent. Depending on the agreement, you may be able to negotiate, but some landlords may require 3–6 months’ rent upfront, especially for longer contracts.",
+
+housingquestion3: "How to get a TM30?",
+housinganswer3: "After moving in, ask the landlord to submit a TM30 form for you. It must include your check-in (move-in) and check-out dates. If you stay beyond the original check-out date, the landlord will need to submit a new TM30.",
+
+housingquestion4: "How do dormitories work?",
+housinganswer4: "The international student dorm is located off campus. You usually need to ask current students if there is an available space, as rooms are shared with around 4 people. The cost is about 6000 baht for the whole semester (around 4 months), with a one-time 1000 baht deposit when you first move in, and about 400 baht for water utilities.",
+
+housingfacilities: "The building has 7 floors, two small elevators, and stairs. Each room includes a small toilet, a small shower, and a small kitchen (no fridge). There are also coin-operated washing machines and a water refill station on the first floor.",
+  
 },
 th: {
   studentvisatitle: "",
