@@ -237,6 +237,8 @@ footer {
   text-align: center;
   background: var(--dark-color);
   box-shadow: var(--top-bar-box-shadow);
+  gap:15px;
+  flex-wrap:wrap;
 }
 
 h2 {
