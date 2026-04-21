@@ -222,6 +222,63 @@ ru: {
   "more buildings": "Скоро появятся новые здания"
 },
 
+  zh: {
+keyinfotitle: "关键信息",
+
+keyinfoquestion1: "怎么选课注册？",
+keyinfoanswer1: "进入注册网站 reg.cmru，并使用学生ID登录。密码为身份证号或护照号。点击“Enroll”，按照学习计划选择课程，然后点击“Confirm Enrollment”，并在截止日期前缴纳学费。",
+
+keyinfoquestion2: "我的CMRU邮箱是什么？",
+keyinfoanswer2: "邮箱用户名为【学生ID】@cmru.ac.th。密码格式为 cmru@日/月/泰历年份。",
+
+keyinfoquestion3: "什么是学生活动学分？",
+keyinfoanswer3: "本科四年需至少修满118个活动学分才能毕业。一般每个活动可获得约3个学分。",
+
+keyinfoquestion4: "怎么获得活动学分？",
+keyinfoanswer4: "通过参加迎新活动、工作坊、讲座、社团活动、志愿服务以及填写问卷等方式获得。",
+
+keyinfoquestion5: "学生医保包含什么？",
+keyinfoanswer5: "2023–2024学年医保包含：医疗费用最高报销15,000泰铢，以及丧葬补助最高20,000泰铢。",
+
+keyinfoquestion6: "合作医院有哪些？",
+keyinfoanswer6: "合作医院包括清迈兰纳医院、清迈拉杰维杰医院、麦考密克医院、清迈医院、玛哈拉吉纳康清迈医院和塔帕尼亚医院。",
+
+keyinfoquestion7: "怎么使用学生保险？",
+keyinfoanswer7: "工作时间需出示身份证和意外保险卡；非工作时间同样需要出示相关证件。可在工作时间联系学生发展部：053-885430。",
+
+
+generallinkstitle: "所有学生必看链接",
+generallinksdesc1: "学校官网：新闻、学院、服务及注册信息。",
+generallinksdesc2: "用于选课、查看课表和学籍管理。",
+generallinksdesc3: "注册处官方Facebook页面。",
+generallinksdesc4: "新生专用信息页面。",
+generallinksdesc5: "学院、部门及机构目录。",
+generallinksdesc6: "奖学金、健康服务、学生活动、就业指导、保险、心理健康及活动日历。",
+generallinksdesc7: "校内宿舍信息，包括设施、费用及联系方式。",
+generallinksdesc8: "在线课程平台：商业、泰语、数字技能和AI课程，并提供电子证书。",
+
+
+wiangbuatitle: "旺布拉校区学生必看链接",
+wiangbuadesc1: "学生、教师及家长信息平台。",
+wiangbuadesc2: "选课、课表查询及学籍管理系统。",
+wiangbuadesc3: "注册处官方Facebook页面。",
+wiangbuadesc4: "IC-CMRU国际学院官网。",
+wiangbuadesc5: "国际学院官方Facebook页面。",
+wiangbuadesc6: "IC-CMRU学生服务：注册、文件、学费及实习。",
+wiangbuadesc7: "实习项目、合作企业及岗位分配（主要面向大四学生）。",
+wiangbuadesc8: "图书馆服务及学术资源。",
+wiangbuadesc9: "图书馆官方Facebook页面。",
+wiangbuadesc10: "数字CMRU：在线系统、学习平台、网课及IT支持。",
+wiangbuadesc11: "数字CMRU官方Facebook页面。",
+wiangbuadesc12: "CMRU校园商店Facebook页面。",
+wiangbuadesc13: "研究生院官网。",
+wiangbuadesc14: "研究生院官方Facebook页面。",
+wiangbuadesc15: "附属示范学校信息（幼儿园及小学）。",
+wiangbuadesc16: "示范学校官方Facebook页面。",
+wiangbuadesc17: "人文与社会科学学院官网。",
+wiangbuadesc18: "人文与社会科学学院官方Facebook页面。"
+  },
+
 my: {
   keyinfotitle: "အဓိက အချက်အလက်များ",
 
