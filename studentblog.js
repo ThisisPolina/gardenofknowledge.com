@@ -546,12 +546,12 @@ indicator29: "Gusali ng Ika-90 Anibersaryo ng Rajabhat",
 
 "buildings section": "Mga gusali",
 
-library: "Aklatan",
+"library link": "Aklatan",
 "digital cmru link": "Digital CMRU",
 "central division link": "Opisina ng Sentral na Dibisyon",
 "student division link": "Opisina ng Dibisyon ng Estudyante",
 "memorial building link": "Gusali ng Ika-27 / Gusaling Alaala",
-infirmary: "Klinika",
+"infirmary link": "Klinika",
 "cmru shop link": "Tindahan ng CMRU",
 "more buildings": "May mga dagdag pang gusali na darating"
 }
