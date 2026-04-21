@@ -322,14 +322,14 @@ indicator29: "၉၀ နှစ်ပြည့် ရာဇဘတ် အဆော
 
 "buildings section": "အဆောက်အအုံများ",
 
-"library link": "စာကြည့်တိုက်",
-"digital cmru link": "ဒစ်ဂျစ်တယ် CMRU အဆောက်အအုံ",
-"central division link": "ဗဟိုဌာနရုံး",
-"student division link": "ကျောင်းသားဌာနရုံး",
-"memorial building link": "၂၇ ခုမြောက် အမှတ်တရအဆောက်အအုံ",
-"infirmary link": "ဆေးခန်း",
-"cmru shop link": "CMRU ဆိုင်",
-"more buildings": "မကြာမီ အခြားအဆောက်အအုံများ ထပ်မံရှိလာမည်"
+  "library link": "စာကြည့်တိုက်",
+  "digital cmru link": "ဒစ်ဂျစ်တယ် CMRU",
+  "central division link": "ဗဟိုဌာနရုံး",
+  "student division link": "ကျောင်းသားဌာနရုံး",
+  "memorial building link": "၂၇ ခုမြောက် အမှတ်တရအဆောက်အအုံ",
+  "infirmary link": "ဆေးခန်း",
+  "cmru shop link": "CMRU ဆိုင်",
+  "more buildings": "မကြာမီ အခြားအဆောက်အအုံများ ထပ်မံရှိလာမည်"
   
 },
 
@@ -433,14 +433,14 @@ indicator29: "Gedung Peringatan Rajabhat Ulang Tahun ke-90",
 
 "buildings section": "Bangunan",
 
-"library link": "Perpustakaan",
-"digital cmru link": "Gedung Digital CMRU",
-"central division link": "Kantor Divisi Pusat",
-"student division link": "Kantor Divisi Mahasiswa",
-"memorial building link": "Gedung ke-27 / Gedung Peringatan",
-"infirmary link": "Unit Kesehatan",
-"cmru shop link": "Toko CMRU",
-"more buildings": "Gedung lainnya akan segera hadir"
+  "library link": "Perpustakaan",
+  "digital cmru link": "Gedung Digital CMRU",
+  "central division link": "Kantor Divisi Pusat",
+  "student division link": "Kantor Divisi Mahasiswa",
+  "memorial building link": "Gedung ke-27 / Gedung Peringatan",
+  "infirmary link": "Unit Kesehatan",
+  "cmru shop link": "Toko CMRU",
+  "more buildings": "Gedung lainnya akan segera hadir"
 },
 
 ph: {
